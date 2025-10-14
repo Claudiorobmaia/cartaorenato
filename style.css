@@ -3,18 +3,21 @@
 }
 
 body {
+background-color: #f4f4f4; /* Cor de fundo da página */
+    display: flex; /* Habilita o Flexbox para centralização */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos 100% da altura da tela */
     margin: 0;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #efeff0;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .card {
     background-color: #013877;
     max-width: 700px;
     border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .top-image {
@@ -37,7 +40,7 @@ body {
 }
 
 .faixa-branca img {
-    max-width: 220px;
+    max-width: 300px;
     height: auto;
     display: inline-block;
 }
